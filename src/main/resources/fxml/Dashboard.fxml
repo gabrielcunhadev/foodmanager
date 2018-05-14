@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="dashboard" fx:id="apDashboard" focusTraversable="true" prefHeight="768.0" prefWidth="1080.0" styleClass="dashboard-botoes" stylesheets="@../css/dashboard.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gabrielcunha.foodmanager.controller.DashboardController">
+   <children>
+      <AnchorPane prefHeight="768.0" prefWidth="1080.0" style="-fx-background-color: #ffffff;" styleClass="..\css\dashboard.css" stylesheets="@../css/dashboard.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="613.0" prefWidth="100.0" style="-fx-background-color: #2b579a;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button id="#dashboard-botao-home" fx:id="btnInicio" mnemonicParsing="false" onAction="#onActionInicio" prefHeight="70.0" prefWidth="100.0" styleClass="dashboard-botoes" text="Início" AnchorPane.topAnchor="80.0">
+                     <padding>
+                        <Insets top="4.0" />
+                     </padding>
+                  </Button>
+                  <Button id="#dashboard-botao-home" fx:id="btnCadastrar" mnemonicParsing="false" onAction="#onActionAbrirCadastros" prefHeight="70.0" prefWidth="100.0" styleClass="dashboard-botoes" text="Cadastrar" AnchorPane.topAnchor="152.0" />
+                  <Button id="dashboard-botao-configuracoes" mnemonicParsing="false" onAction="#onActionAbrirTelaVenda" prefHeight="70.0" prefWidth="100.0" styleClass="dashboard-botoes" text="Vender" AnchorPane.topAnchor="224.0" />
+                  <Button fx:id="btnSair" mnemonicParsing="false" onAction="#onActionSair" prefHeight="40.0" prefWidth="40.0" stylesheets="@../css/botaoSair.css" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="20.0">
+                     <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/arrowLeft.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button id="dashboard-botao-configuracoes" layoutX="5.0" layoutY="296.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="100.0" styleClass="dashboard-botoes" text="Relatórios" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="acpTelaPrincipal" prefHeight="700.0" prefWidth="891.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+               <children>
+                  <Label fx:id="lbTituloTela" text="Dashboard" textFill="#2e62ab" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+                     <font>
+                        <Font name="Segoe UI Semilight" size="32.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="2.0" layoutY="13.0" prefHeight="0.0" prefWidth="539.0" AnchorPane.topAnchor="60.0" />
+               </children></AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

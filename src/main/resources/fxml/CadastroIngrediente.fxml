@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gabrielcunha.foodmanager.controller.CadastroIngredienteController">
+   <children>
+      <Text layoutX="60.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+      <TextField fx:id="txfNome" layoutX="136.0" layoutY="99.0" />
+      <Button layoutX="136.0" layoutY="144.0" mnemonicParsing="false" onAction="#onActionSalvar" prefHeight="25.0" prefWidth="149.0" text="Salvar" />
+      <Text fill="#3200a8" layoutX="60.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastro de Ingredientes">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="..\..\..\..\resources\css\dashboard.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gabrielcunha.foodmanager.controller.CadastrosController">
+   <children>
+      <AnchorPane fx:id="acpTelaPrincipal" prefHeight="400.0" prefWidth="600.0" styleClass="..\..\..\..\resources\css\dashboard.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>         
+            <Button id="dashboard-botao-home" layoutX="30.0" layoutY="23.0" mnemonicParsing="false" onAction="#onActonAbrirCadastroIngrediente" prefHeight="111.0" prefWidth="107.0" styleClass="dashboard-botoes" text="Ingrediente" AnchorPane.topAnchor="80.0" />
+            <Button id="dashboard-botao-home" layoutX="170.0" layoutY="23.0" mnemonicParsing="false" onAction="#onActionMontarSanduba" prefHeight="111.0" prefWidth="107.0" styleClass="dashboard-botoes" text="Sanduba" AnchorPane.topAnchor="80.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

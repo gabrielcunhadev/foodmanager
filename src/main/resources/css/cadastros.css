@@ -1,0 +1,42 @@
+.dashboard-botoes{
+	-fx-background-color:  #214B8A;
+    -fx-background-radius: 0;	 
+	-fx-text-fill: white; 
+	-fx-alignment: bottom-center;
+	-fx-font-size: 1.2em ;
+}
+
+#dashboard-botoes-cadastros-cliente{
+	-fx-background-image: url("/resources/images/bt_cliente.png");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-position: 45 10;
+}
+
+#dashboard-botoes-grupo-usuarios{
+	-fx-background-image: url("/resources/images/bt_grupo_usuarios.png");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-position: 33 10;
+}
+#dashboard-botoes-cadastro-usuario{
+	-fx-background-image: url("/resources/images/bt_cadastro_usuario.png");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-position: 33 10;
+}
+
+#dashboard-botoes-cadastros-funcionario{
+	-fx-background-image: url("/resources/images/bt_funcionario.png");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-position: 45 10;
+}
+
+#dashboard-botoes-cadastros-fornecedor{
+	-fx-background-image: url("/resources/images/bt_fornecedor.png");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-position: 45 10;
+}
+
+#dashboard-botoes-cadastros-produto{
+	-fx-background-image: url("/resources/images/bt_produtos.png");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-position: 45 10;
+}
